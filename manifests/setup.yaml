@@ -86,9 +86,9 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://github.com/defenseunicorns/zarf-package-software-factory.git
+  url: https://github.com/dp-MTSI/zarf-package-software-factory
   ref:
-    branch: not-the-real-branch-name
+    branch: main_airgap
   #    tag: X.Y.Z
   secretRef:
     name: private-git-server
