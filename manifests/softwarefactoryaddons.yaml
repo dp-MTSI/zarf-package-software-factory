@@ -28,10 +28,6 @@ spec:
       kind: HelmRelease
       namespace: softwarefactoryaddons
       name: artifactory
-  decryption:
-    provider: sops
-    secretRef:
-      name: sops-gpg
   postBuild:
     substitute:
       ZARF_REGISTRY: "###ZARF_REGISTRY###"

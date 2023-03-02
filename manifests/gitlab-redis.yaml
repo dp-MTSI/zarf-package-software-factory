@@ -16,10 +16,6 @@ spec:
       kind: HelmRelease
       namespace: softwarefactoryaddons
       name: gitlab-redis
-  decryption:
-    provider: sops
-    secretRef:
-      name: sops-gpg
   postBuild:
     substitute:
       ZARF_REGISTRY: "###ZARF_REGISTRY###"

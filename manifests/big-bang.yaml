@@ -73,10 +73,6 @@ spec:
       kind: HelmRelease
       namespace: bigbang
       name: gitlab-runner
-  decryption:
-    provider: sops
-    secretRef:
-      name: sops-gpg
   postBuild:
     substitute:
       ZARF_REGISTRY: "###ZARF_REGISTRY###"
