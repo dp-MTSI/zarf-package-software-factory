@@ -38,19 +38,19 @@ secretGenerator:
     namespace: bigbang
     behavior: replace
     files:
-      - values.yaml=environment-bb/values-bigbang.enc.yaml
+      - values.yaml=environment-bb/values-bigbang.yaml
   - name: environment-bb-minio-common
     namespace: bigbang
     files:
-      - values.yaml=environment-bb/values-minio-common.enc.yaml
+      - values.yaml=environment-bb/values-minio-common.yaml
   - name: environment-bb-minio-common-user-creds
     namespace: bigbang
     files:
-      - values.yaml=environment-bb/values-minio-common-user-creds.enc.yaml
+      - values.yaml=environment-bb/values-minio-common-user-creds.yaml
   - name: environment-bb-gitlab-minio-s3cfg
     namespace: bigbang
     files:
-      - values.yaml=environment-bb/values-gitlab-minio-s3cfg.enc.yaml
+      - values.yaml=environment-bb/vavalues-gitlab-minio-s3cfg.yaml
 
 patchesStrategicMerge:
   - |-

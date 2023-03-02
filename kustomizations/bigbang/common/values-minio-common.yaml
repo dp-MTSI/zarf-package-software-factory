@@ -24,7 +24,7 @@ podAnnotations:
   traffic.sidecar.istio.io/includeInboundPorts: "*"
   traffic.sidecar.istio.io/excludeInboundPorts: "9443"
 
-# Secrets are set in ../environment-bb/values-gitlab-minio.enc.yaml
+# Secrets are set in ../environment-bb/values-gitlab-minio.yaml
 #secrets:
 #  accessKey: not-the-real-secret
 #  secretKey: not-the-real-secret

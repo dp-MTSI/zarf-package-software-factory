@@ -517,8 +517,8 @@ addons:
       type: "minio"
       endpoint: http://minio.gitlab-minio.svc.cluster.local:80
       region: "minio"
-      # accessKey: "" -- Added in environment-bb/values-bigbang.enc.yaml
-      # accessSecret: "" -- Added in environment-bb/values-bigbang.enc.yaml
+      # accessKey: "" -- Added in environment-bb/values-bigbang.yaml
+      # accessSecret: "" -- Added in environment-bb/values-bigbang.yaml
     values:
       istio:
         mtls:
